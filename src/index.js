@@ -12,7 +12,7 @@ function Client() {
     center: true,
     resizable: true,
     title: config.title,
-    icon: config.icon,
+    icon: `${__dirname}/${config.icon}`,
     webPreferences: {
       devTools: true
     }
@@ -56,7 +56,7 @@ if (!sameInstance) {
 }
 
 function buildTray() {
-  tray = new Tray(config.icon)
+  tray = new Tray(`${__dirname}/${config.icon}`)
   const contextMenu = Menu.buildFromTemplate([
     {
       label: config.title,
