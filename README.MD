@@ -16,9 +16,11 @@ Basic JS code using Electron which converting a web to desktop-app
     "url": "Web URL"
 }
 ```
-**4:** Run in your terminal this command: `npm deploy`
+**4:** Run in your terminal this command: `npm install`
 <br>
-**5:** After it deployed, run in your terminal this command: `npm start`
+**5:** Run the command: `npm deploy`
+<br>
+**6:** After it deployed, run the command: `npm start`
 <br>
 <br>
 <br>
