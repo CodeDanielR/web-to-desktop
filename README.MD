@@ -19,3 +19,8 @@ Basic JS code using Electron which converting a web to desktop-app
 **4:** Run in your terminal this command: `npm deploy`
 <br>
 **5:** After it deployed, run in your terminal this command: `npm start`
+<br>
+<br>
+<br>
+Thanks for using my code!
+<br>- Daniel
